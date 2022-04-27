@@ -1,0 +1,107 @@
+
+*{margin: 0; padding: 0;font-family: 'Arial', serif;}
+.container{
+     display: grid;
+     justify-content: center;
+     align-content: center;
+     min-height: 100vh;
+     grid-template-columns: 40vw;
+     grid-template-rows: repeat(3,10vh) 5vh repeat(2,10vh);
+     grid-gap: 10px;
+     
+}
+body{
+    background-color: rgba(5, 127, 162, 0.23);
+
+    
+
+
+}
+
+}
+
+h1{ 
+    text-align: center; 
+    color: black;
+}
+.submit-btn{
+    background-color: lightgrey;
+}
+.bmi-value{
+    background-color: lightgrey;
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+
+   }
+.status {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.container > div{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+button,input{
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    outline: none;
+    font-size: 2vw;
+    border-radius: 8px;
+
+
+}
+
+
+input{
+    background-color: aliceblue;
+
+    text-indent: 0.5em;
+    max-width:100% ;
+    color: black;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+button{
+    height: 70px;
+    background: rgba(8, 84, 103, 0.43);
+;
+    cursor: pointer;
+}
+button:hover{
+    background: lightslategray;
+    color: white;
+}
+
+
+img{ width:600px ;
+    height: 350px;}
+
+
+img{
+    position: relative;
+    bottom: -350px;
+    left: -20px;
+
+
+
+
+
+
+
+
+
+
